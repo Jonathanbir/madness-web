@@ -1,6 +1,48 @@
 .authentication-container {
   display: flex;
-  width: 900px;
-  justify-content: space-between;
-  margin: 30px auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .logo {
+    position: absolute;
+    top: 0.4rem;
+    left: 1rem;
+    background: url("https://www.mdnsonline.com/img/ico_menu.svg") no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .authentication-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: 30px auto;
+
+    .auth-logo {
+      background: url("https://www.mdnsonline.com/img/logo-home_2021SSv2.png")
+        no-repeat;
+      width: 300px;
+      height: 70px;
+      background-size: contain;
+      margin: auto;
+      margin-bottom: 50px;
+      cursor: pointer;
+    }
+  }
+  .authentication-banner {
+    background: url("https://www.mdnsonline.com/img/bg_login_2021SS.jpg");
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    cursor: pointer;
+  }
 }
