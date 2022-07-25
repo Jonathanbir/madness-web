@@ -6,6 +6,10 @@
   justify-content: center;
   margin-left: 20px;
 
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
   h2 {
     color: #808285;
     font-size: 15px;

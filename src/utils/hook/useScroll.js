@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { useDom } from "./hook/index";
+import { useDom } from "../hook/index";
 
 export const useScroll = () => {
   const [scrollY, setState] = useState(window.scrollY);

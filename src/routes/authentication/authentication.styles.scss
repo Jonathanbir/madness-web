@@ -21,6 +21,10 @@
       margin: auto;
       margin-bottom: 50px;
       cursor: pointer;
+
+      @media screen and (max-width: 768px) {
+        width: 150px;
+      }
     }
   }
   .authentication-banner {
@@ -32,5 +36,9 @@
     background-repeat: no-repeat;
     z-index: 2;
     cursor: pointer;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
 }

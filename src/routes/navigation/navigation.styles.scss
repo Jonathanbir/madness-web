@@ -7,7 +7,11 @@
   flex-direction: column;
   justify-content: center;
   background-color: #808285;
-  z-index: 99;
+  z-index: 999;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 
   .nav-top {
     position: relative;
