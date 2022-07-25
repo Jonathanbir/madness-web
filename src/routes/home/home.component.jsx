@@ -32,10 +32,10 @@ const Home = () => {
   ];
 
   const settings = {
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     dots: true,
-    infinite: false,
+    infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     customPaging: (i) => (

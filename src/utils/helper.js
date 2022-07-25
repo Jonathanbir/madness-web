@@ -26,7 +26,6 @@ export const groupBy = (xs, key) =>
   }, {});
 
 export const scrollToOffset = (offset = 0, behavior = "smooth") => {
-  console.log("hihihi", offset);
   window.scrollTo({
     behavior,
     top: offset,

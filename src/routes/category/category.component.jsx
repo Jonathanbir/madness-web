@@ -13,7 +13,7 @@ const Category = () => {
   const { category } = useParams();
   const { categoriesMap } = useContext(CategoriesContext);
   const [products, setProducts] = useState(categoriesMap[category]);
-  console.log("category", category);
+
   useEffect(() => {
     addCollectionAndDocuments("categories", SHOP_DATA);
     setProducts(categoriesMap[category]);
