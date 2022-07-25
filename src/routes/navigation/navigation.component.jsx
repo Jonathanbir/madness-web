@@ -24,24 +24,46 @@ const Navigation = ({ setOpen }) => {
           </div>
         </div>
         <div className="nav-links-container">
-          <Link className="nav-link" to="/hats">
-            HATS
+          <Link
+            className="nav-link"
+            to="shop/shirts"
+            onClick={() => setOpen(false)}
+          >
+            SHRITS
           </Link>
-          <Link className="nav-link" to="/jackets">
+          <Link
+            className="nav-link"
+            to="shop/jackets"
+            onClick={() => setOpen(false)}
+          >
             JACKETS
           </Link>
-          <Link className="nav-link" to="/sneakers">
+          <Link
+            className="nav-link"
+            to="shop/pants"
+            onClick={() => setOpen(false)}
+          >
+            PANTS
+          </Link>
+          <Link
+            className="nav-link"
+            to="shop/sneakers"
+            onClick={() => setOpen(false)}
+          >
             SNEAKERS
           </Link>
-          <Link className="nav-link" to="/womens">
-            WOMENS
-          </Link>
-          <Link className="nav-link" to="/mens">
-            MENS
+          <Link
+            className="nav-link"
+            to="shop/caps"
+            onClick={() => setOpen(false)}
+          >
+            CAPS
           </Link>
         </div>
         <div className="nav-footer">
-          <div className="nav-footer-logo" />
+          <Link className="nav-link" to="/">
+            <div className="nav-footer-logo" onClick={() => setOpen(false)} />
+          </Link>
           <p>
             ALL WORK AND
             <br />

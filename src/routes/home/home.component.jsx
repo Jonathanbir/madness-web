@@ -1,16 +1,10 @@
 import { useState } from "react";
 import Video from "../../components/video/video.component";
 import Banner from "../../components/banner/banner.component";
-import Navigation from "../navigation/navigation.component";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 import "./home.styles.scss";
 
 const Home = () => {
   const [hover, setHover] = useState(null);
-  const [open, setOpen] = useState(false);
-  const animateFrom = { x: -100 };
-  const animateTo = { x: 0 };
 
   const background = {
     banner01:
@@ -25,15 +19,6 @@ const Home = () => {
 
   return (
     <>
-      {open && (
-        <motion.div
-          initial={animateFrom}
-          animate={animateTo}
-          transition={{ duration: 0.5 }}
-        >
-          <Navigation setOpen={setOpen} />
-        </motion.div>
-      )}
       <div className="background">
         <Video />
         <div
@@ -42,9 +27,6 @@ const Home = () => {
             backgroundImage: `url(${hover})`,
           }}
         >
-          <Link className="nav-link" to="/">
-            <div className="logo" onClick={() => setOpen(!open)} />
-          </Link>
           <div className="home-background">
             <Banner
               title="MADNESS"

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./banner.styles.scss";
 
 const Banner = ({ title, onMouseEnter, onMouseLeave }) => {
@@ -9,7 +10,9 @@ const Banner = ({ title, onMouseEnter, onMouseLeave }) => {
     >
       <div className="shop-button-container">
         <h1>{title}</h1>
-        <div className="shop-button">SHOP NOW</div>
+        <Link className="nav-link" to="shop/shirts">
+          <div className="shop-button">SHOP NOW</div>
+        </Link>
       </div>
     </div>
   );

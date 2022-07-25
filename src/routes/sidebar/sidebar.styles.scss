@@ -1,13 +1,15 @@
-.navigation {
-  position: fixed;
-  top: 0;
+.sidebar {
+  width: 200px;
   height: 100vh;
-  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #808285;
-  z-index: 99;
+  margin-left: 20px;
+
+  h2 {
+    color: #808285;
+    font-size: 15px;
+  }
 
   .nav-top {
     position: relative;
@@ -21,14 +23,14 @@
     .nav-sing {
       padding: 10px 15px;
       cursor: pointer;
-      color: #fff;
+      color: #808285;
       font-size: 13px;
       font-weight: 900;
       padding: 10px 5px;
     }
 
     span {
-      color: #fff;
+      color: #808285;
       font-size: 18px;
       font-weight: 900;
     }
@@ -36,27 +38,26 @@
     .close-btn {
       position: absolute;
       right: 25px;
-      color: #fff;
+      color: #808285;
       font-size: 15px;
       font-weight: 900;
       cursor: pointer;
     }
   }
 
-  .nav-links-container {
-    width: 50%;
+  .side-bar-links-container {
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 100px;
 
-    .nav-link {
+    .side-bar-link {
       padding: 10px 15px;
       cursor: pointer;
-      color: #fff;
-      font-size: 20px;
+      color: #808285;
+      font-size: 12px;
       font-weight: 900;
       line-height: 0.5;
     }
@@ -68,18 +69,8 @@
     margin: 0 20px;
     margin-bottom: 30px;
 
-    .nav-footer-logo {
-      background: url("https://www.mdnsonline.com/img/logo-madness-white.png")
-        no-repeat;
-      width: 100px;
-      height: 50px;
-      background-size: contain;
-      z-index: 2;
-      cursor: pointer;
-    }
-
     p {
-      color: #fff;
+      color: #808285;
       font-size: 11px;
       font-weight: 900;
     }

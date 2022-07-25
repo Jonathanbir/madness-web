@@ -26,7 +26,6 @@ const Authentication = () => {
         </motion.div>
       )}
       <div className="authentication-container">
-        <div className="logo" onClick={() => setOpen(!open)} />
         <div className="authentication-form">
           <Link className="nav-link" to="/">
             <div className="auth-logo" />

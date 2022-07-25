@@ -4,18 +4,6 @@
   justify-content: center;
   align-items: center;
 
-  .logo {
-    position: absolute;
-    top: 0.4rem;
-    left: 1rem;
-    background: url("https://www.mdnsonline.com/img/ico_menu.svg") no-repeat;
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    z-index: 2;
-    cursor: pointer;
-  }
-
   .authentication-form {
     display: flex;
     flex-direction: column;
