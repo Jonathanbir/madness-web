@@ -20,11 +20,11 @@ const Footer = () => {
       <div className="footer-item">
         <h2>PAYMENT METHOD</h2>
         <ul>
-          <i class="payment_1"></i>
-          <i class="payment_2"></i>
-          <i class="payment_3"></i>
-          <i class="payment_4"></i>
-          <i class="payment_5"></i>
+          <i className="payment_1"></i>
+          <i className="payment_2"></i>
+          <i className="payment_3"></i>
+          <i className="payment_4"></i>
+          <i className="payment_5"></i>
         </ul>
       </div>
       <div className="footer-item">
