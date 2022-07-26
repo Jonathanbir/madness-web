@@ -24,6 +24,11 @@
     position: absolute;
     top: 255px;
     display: none;
+
+    @media screen and (max-width: 768px) {
+      width: auto;
+      top: 150px;
+    }
   }
 
   &:hover {
@@ -50,6 +55,10 @@
       margin-bottom: 15px;
       color: #808285;
       font-size: 14px;
+
+      @media screen and (max-width: 768px) {
+        margin-bottom: auto;
+      }
     }
 
     .price {

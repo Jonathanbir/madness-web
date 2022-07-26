@@ -37,6 +37,7 @@ const ShopNavigation = () => {
           scrollY > 10
             ? {
                 position: "fixed",
+                top: "0",
                 background: "#fff",
                 zIndex: "99",
                 height: "60px",

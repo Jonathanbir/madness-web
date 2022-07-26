@@ -33,7 +33,7 @@ const Home = () => {
 
   const settings = {
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     dots: true,
     infinite: true,
     slidesToShow: 1,
