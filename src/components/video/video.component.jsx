@@ -4,9 +4,9 @@ const Video = () => {
     <video
       muted
       loop
-      autoplay="autoplay"
+      autoPlay="autoplay"
       id="videoplayer"
-      class="fullscreen-video"
+      className="fullscreen-video"
     >
       <source
         id="videosource"
